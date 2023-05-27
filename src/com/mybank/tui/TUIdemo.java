@@ -1,14 +1,3 @@
-# UI Lab 1
-
-## Виконання завдання на "п'ять"
-**В ході виконнаня практичної роботи потрібно було зробити наступне:**
-* переписати метод ShowCustomerDetails з використанням класів Bank, Customer, Account та ін.;
-* інформація про клієнтів банку та їх рахунках має читатись з файлу test.dat;
-* інформацію про клієнта (та про перший рахунок, що йому належить) ви маєте побачити, увівши номер клієнта.
----
-**Програмний код класу `TUIdemo` наведений нижче.**
-
-```java
 package com.mybank.tui;
 import com.mybank.data.DataSource;
 import com.mybank.domain.*;
@@ -110,11 +99,3 @@ public class TUIdemo extends TApplication {
         });
     }
 }
-```
----
-
-**Скріншоти виконання програми наведені нижче.**
-
-![](https://github.com/ppc-ntu-khpi/34-tui-1-vellerii/blob/master/first%20execution.png "1st result")
-
-![](https://github.com/ppc-ntu-khpi/34-tui-1-vellerii/blob/master/second%20execution.png "2snd result")
